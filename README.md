@@ -1,6 +1,6 @@
 # Java Text Editor
 This is a Java Text Editor I developed as part of the course Data Structures and Performance run by UCSD on Coursera. 
-Over the course of the project I used a linkedlist, a binary search tree and a trie structure to represent the dictionary. I also compared the Big O performance of the linkedlist dictionary with the BST using a benchmarking class I wrote that took advantage of system nano time to time searches in both implementations and outputed the results into the eclipse console, which I then graphed in google docs.  
+Over the course of the project I used a linkedlist (coded from scratch), a binary search tree and a trie structure to represent the dictionary. I also compared the Big O performance of the linkedlist dictionary with the BST using a benchmarking class I wrote that took advantage of system nano time to time searches in both implementations and outputed the results into the eclipse console, which I then graphed in google docs.  
 
 For the dictionary’s I implemented methods addWord, isWord and size. For the trie implementation I used a hashmap structure using a character as the key and a trienode as the value. To implement the auto-complete funtion I then traced down the trie and found the stem or if there wasn’t a stem I returned an empty list. Once I found the stem I performed a breath first search to generate all the valid completions. 
 
